@@ -1,0 +1,24 @@
+{
+  "name": "Smashing-magazine-clone",
+  "version": "1.0.0",
+  "description": "This project consists of building a heatmap of the [Smashing magazine](https://www.smashingmagazine.com) website",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fegzycole/Smashing-magazine-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fegzycole/Smashing-magazine-clone/issues"
+  },
+  "homepage": "https://github.com/fegzycole/Smashing-magazine-clone#readme",
+  "devDependencies": {
+    "stylelint": "^11.1.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
