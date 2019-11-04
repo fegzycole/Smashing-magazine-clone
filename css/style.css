@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Mija';
+  src: url('../fonts/mija_bold-webfont.eot');
+  src:
+    local('☺'),
+    url('../fonts/mija_bold-webfont.woff2') format('woff'),
+    url('../fonts/mija_bold-webfont.ttf') format('truetype'),
+    url('../fonts/mija_bold-webfont.svg#font') format('svg');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +29,7 @@ header nav ul {
 header nav ul > li {
   margin-top: 50px;
   font-size: 20px;
-  font-family: serif;
+  font-family: Mija, sans-serif;
 }
 
 header nav ul > li:last-child {
