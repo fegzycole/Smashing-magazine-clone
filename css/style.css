@@ -25,6 +25,10 @@
   font-family: Mija, sans-serif;
 }
 
+body {
+  background: #f2f2f2;
+}
+
 header nav {
   width: 100%;
   height: 170px;
@@ -220,4 +224,42 @@ header nav ul > li:last-child {
 
 .bookmarks-tv button {
   width: 40%;
+}
+
+.ethics {
+  width: 100%;
+  padding: 30px;
+  height: 450px;
+  margin: 50px 0 0 0;
+  text-align: center;
+  background: rgb(97, 94, 94);
+}
+
+.ethics > h2 {
+  margin-top: 40px;
+}
+
+.ethics h2 a {
+  color: white;
+  font-size: 50px;
+}
+
+.ethics > p,
+.ethics > p > strong {
+  width: 60%;
+  margin: 30px auto 0 auto;
+  font-family: Elena;
+  font-size: 26px;
+  line-height: 2;
+  color: white;
+}
+
+.ethics > button {
+  padding: 20px 70px;
+  background: rgba(187, 177, 177, 0.4);
+  font-size: 25px;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  margin-top: 30px;
 }
