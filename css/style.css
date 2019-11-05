@@ -403,3 +403,24 @@ header nav ul > li:last-child {
   line-height: 24.978px;
   margin-top: 50px;
 }
+
+.posts ul {
+  list-style: none;
+  padding-left: 40px;
+}
+
+.posts ul li::before {
+  content: "\2022";
+  color: rgb(110, 107, 107);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.posts > article > ul > li > a {
+  color: #006fc6;
+  font-family: Elena;
+  line-height: 2;
+  font-size: 23px;
+}
