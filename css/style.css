@@ -294,3 +294,68 @@ header nav ul > li:last-child {
   font-size: 17.874px;
   letter-spacing: 2px;
 }
+
+.clear {
+  clear: both;
+}
+
+.writers-section {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.writers-section > article {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.writers-section > article > .figure-head {
+  width: 70px;
+  height: 70px;
+  border: 6px solid grey;
+  border-radius: 6px;
+  margin: 10px 0 0 30px;
+  transform: rotate(75deg);
+}
+
+.writers-section > article > .content {
+  width: 80%;
+  margin-left: 5px;
+}
+
+.writers-section > article > .content > span,
+.writers-section > article > .content > span > a {
+  font-size: 22px;
+  color: rgb(102, 102, 102);
+}
+
+.writers-section > article > .content > h1 {
+  margin: 25px 0;
+}
+
+.writers-section > article > .content > h1 > a {
+  text-decoration: none;
+  color: rgb(65, 62, 62);
+  font-size: 30px;
+}
+
+.writers-section > article > .content > p,
+.writers-section > article > .content > p > time,
+.writers-section > article > .content > p > a {
+  font-family: Elena;
+  font-size: 19px;
+  line-height: 2;
+}
+
+.writers-section > article > .content > p > a {
+  color: #006fc6;
+}
+
+.writers-section > article > .content > p > time {
+  text-transform: uppercase;
+  font-size: 17px;
+}
