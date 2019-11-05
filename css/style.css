@@ -2,7 +2,7 @@
   font-family: 'Mija';
   src: url('../fonts/mija_bold-webfont.eot');
   src:
-    local('☺'),
+    local(':relaxed:'),
     url('../fonts/mija_bold-webfont.woff2') format('woff'),
     url('../fonts/mija_bold-webfont.ttf') format('truetype'),
     url('../fonts/mija_bold-webfont.svg#font') format('svg');
@@ -12,7 +12,7 @@
   font-family: 'Elena';
   src: url('../fonts/elenawebregular.eot');
   src:
-    local('☺'),
+    local(':relaxed:'),
     url('../fonts/elenawebregular.woff2') format('woff'),
     url('../fonts/elenawebregular.ttf') format('truetype'),
     url('../fonts/elenawebregular.svg#font') format('svg');
@@ -204,7 +204,8 @@ header nav ul > li:last-child {
   margin: 0 auto;
 }
 
-.members button {
+.members button,
+.book article button {
   background-color: rgb(182, 179, 179);
   width: 30%;
   height: 60px;
@@ -358,4 +359,47 @@ header nav ul > li:last-child {
 .writers-section > article > .content > p > time {
   text-transform: uppercase;
   font-size: 17px;
+}
+
+.book {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(85, 83, 83);
+  padding-left: 100px;
+  color: white;
+}
+
+.book article {
+  width: 60%;
+}
+
+.book article h5 {
+  font-family: Elena;
+  font-size: 15.888px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-top: 45px;
+}
+
+.book article h1 {
+  padding-top: 20px;
+  font-size: 40px;
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+.book article p {
+  font-family: Elena;
+  font-size: 19.86px;
+  height: 93px;
+  line-height: 31.278px;
+}
+
+.book article button {
+  width: 40%;
+  font-size: 21.72px;
+  font-weight: 700;
+  height: 58.5625px;
+  line-height: 24.978px;
+  margin-top: 50px;
 }
