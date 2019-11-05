@@ -118,7 +118,9 @@ header nav ul > li:last-child {
   color: rgb(155, 155, 154);
 }
 
-.posts article p {
+.posts article p,
+.supporters p,
+.members p {
   margin-top: 25px;
   font-family: Elena;
   line-height: 1.5;
@@ -141,4 +143,62 @@ header nav ul > li:last-child {
   margin-right: 21px;
   box-shadow: 3px 3px 7px rgba(66, 65, 65, 0.4);
   transform: scale(1.1);
+}
+
+.posts article:first-child:hover {
+  margin-left: 21px;
+}
+
+.post-members {
+  display: grid;
+  grid-template-columns: 34% 64%;
+  height: 700px;
+  grid-gap: 12px;
+  padding: 20px;
+  padding-left: 40px;
+  background-color: #f2f2f2;
+}
+
+.supporters {
+  height: 300px;
+  background-color: rgb(172, 169, 169);
+  border-radius: 13px;
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+}
+
+.members {
+  background-color: rgb(80, 79, 79);
+  border-radius: 23px;
+  text-align: center;
+  color: white;
+}
+
+.supporters h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.members h1 {
+  padding-top: 300px;
+  font-size: 40px;
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+.members p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.members button {
+  background-color: rgb(182, 179, 179);
+  width: 30%;
+  height: 60px;
+  border: none;
+  margin-top: 40px;
+  border-radius: 7px;
+  color: white;
+  font-size: 18px;
 }
