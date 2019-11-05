@@ -99,26 +99,31 @@ header nav ul > li:last-child {
   background: #f2f2f2;
 }
 
-.posts article {
+.posts article,
+.bookmarks article:first-child {
   padding: 30px;
 }
 
-.posts article h2 {
+.posts article h2,
+.bookmarks article:first-child h2 {
   margin-bottom: 25px;
 }
 
-.posts article h2 a {
+.posts article h2 a,
+.bookmarks article:first-child h2 a {
   color: black;
   font-size: 28px;
 }
 
 .posts article span,
-.posts article span a {
+.posts article span a,
+.bookmarks article:first-child span a {
   font-size: 18px;
   color: rgb(155, 155, 154);
 }
 
 .posts article p,
+.bookmarks article:first-child p,
 .supporters p,
 .members p {
   margin-top: 25px;
@@ -131,7 +136,8 @@ header nav ul > li:last-child {
   font-family: Elena;
 }
 
-.posts article:not(:last-child):hover {
+.posts article:not(:last-child):hover,
+.bookmarks article:first-child:hover {
   background: white;
   box-shadow: 3px 3px 7px rgba(66, 65, 65, 0.4);
   transform: scale(1.1);
@@ -145,7 +151,8 @@ header nav ul > li:last-child {
   transform: scale(1.1);
 }
 
-.posts article:first-child:hover {
+.posts article:first-child:hover,
+.bookmarks article:first-child:hover {
   margin-left: 21px;
 }
 
@@ -201,4 +208,16 @@ header nav ul > li:last-child {
   border-radius: 7px;
   color: white;
   font-size: 18px;
+}
+
+.bookmarks {
+  display: grid;
+  grid-template-columns: 34% 64%;
+  background-color: #f2f2f2;
+  padding-top: 20px;
+  height: 700px;
+}
+
+.bookmarks-tv button {
+  width: 40%;
 }
