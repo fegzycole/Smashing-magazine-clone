@@ -8,10 +8,21 @@
     url('../fonts/mija_bold-webfont.svg#font') format('svg');
 }
 
+@font-face {
+  font-family: 'Elena';
+  src: url('../fonts/elenawebregular.eot');
+  src:
+    local('☺'),
+    url('../fonts/elenawebregular.woff2') format('woff'),
+    url('../fonts/elenawebregular.ttf') format('truetype'),
+    url('../fonts/elenawebregular.svg#font') format('svg');
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Mija, sans-serif;
 }
 
 header nav {
@@ -31,7 +42,6 @@ header nav ul {
 header nav ul > li {
   margin-top: 74px;
   font-size: 22px;
-  font-family: Mija, sans-serif;
 }
 
 header nav ul > li:first-child {
@@ -61,7 +71,6 @@ header nav ul > li:last-child {
   flex-direction: column;
   justify-content: center;
   padding: 0 40px;
-  font-family: Mija;
   font-size: 30px;
   color: white;
 }
@@ -80,4 +89,56 @@ header nav ul > li:last-child {
 
 .article-4 {
   background-color: rgb(99, 97, 97);
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  padding: 50px 0;
+  height: inherit;
+  background: #f2f2f2;
+}
+
+.posts article {
+  padding: 30px;
+}
+
+.posts article h2 {
+  margin-bottom: 25px;
+}
+
+.posts article h2 a {
+  color: black;
+  font-size: 28px;
+}
+
+.posts article span,
+.posts article span a {
+  font-size: 18px;
+  color: rgb(155, 155, 154);
+}
+
+.posts article p {
+  margin-top: 25px;
+  font-family: Elena;
+  line-height: 1.5;
+  font-size: 22px;
+}
+
+.posts article p > a {
+  font-family: Elena;
+}
+
+.posts article:not(:last-child):hover {
+  background: white;
+  box-shadow: 3px 3px 7px rgba(66, 65, 65, 0.4);
+  transform: scale(1.1);
+}
+
+.posts article:last-child:hover {
+  background: white;
+  padding-right: 30px;
+  margin-right: 21px;
+  box-shadow: 3px 3px 7px rgba(66, 65, 65, 0.4);
+  transform: scale(1.1);
 }
