@@ -131,9 +131,20 @@ header nav ul > li:last-child {
   color: rgb(155, 155, 154);
 }
 
+.supporters p,
 .posts article p,
 .bookmarks article:first-child p,
+.members p,
+.community article div:last-child p {
+  margin-top: 25px;
+  font-family: Elena;
+  line-height: 1.5;
+  font-size: 22px;
+}
+
 .supporters p,
+.posts article p,
+.bookmarks article:first-child p,
 .members p,
 .community article div:last-child p {
   margin-top: 25px;
