@@ -19,7 +19,7 @@ This project consists of building a heatmap of the [Smashing magazine](https://w
 
 ## Github Pages Link
 
-Coming Soon!
+<https://fegzycole.github.io/Smashing-magazine-clone/>
 
 ## License
 
