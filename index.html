@@ -1,294 +1,501 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>
+      Smashing Magazine — For Web Designers And Developers — Smashing Magazine
+    </title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <title>
-    Smashing Magazine — For Web Designers And Developers — Smashing Magazine
-  </title>
-</head>
-
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li>S-Logo</li>
-        <li>Articles</li>
-        <li>Books</li>
-        <li>Events</li>
-        <li>Jobs</li>
-        <li>Membership</li>
-        <li>Topics</li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="latest">
-      <article class="article-1">
-        <h2>Build A Seamless Spreadsheet Import Experience With The Help Of Flatfile.io</h2>
-      </article>
-      <article class="article-2">
-        <h2>Creating Online Environments That Work Well For Older Users</h2>
-      </article>
-    </section>
-    <section class="latest">
-      <article class="article-3">
-        <h2>Things We Can't (Yet) Do In CSS</h2>
-      </article>
-      <article class="article-4">
-        <h2>Signs Your Website Feels More Like A Haunted House Than A Welcoming Home</h2>
-      </article>
-    </section>
-    <section class="posts">
-      <article>
-        <h2>
-          <a href="#">Writing A Multiplayer Text Adventure Engine In Node.js: Creating The Terminal Client (Part 3)</a>
-        </h2>
-        <span>by <a href="/author/fernando-doglio">Fernando Doglio</a></span>
-        <p>This third part of the series will focus on adding a text-based client for the
-          game engine that was created in <a
-            href="https://www.smashingmagazine.com/2019/10/multiplayer-text-adventure-engine-node-js-part-2/">part
-            2</a>. Fernando Doglio explains basic architecture design, tool selection and code highlights by showing you
-          how to create a text-based UI …</p>
-      </article>
-      <article>
-        <h2>
-          <a href="#">Speed Up Your Website With WebP</a>
-        </h2>
-        <span>by <a href="/author/suzanne-scacca">Suzanne Scacca</a></span>
-        <p>Images are a big part of the web and, yet, they can cause a lot of challenges
-          for the user experience if not properly optimized or delivered. It’s been almost a decade since Google
-          introduced the world to WebP as a solution to this problem. As more …
-        </p>
-      </article>
-      <article>
-        <h2>
-          <a href="#">Writing Asynchronous Tasks In Modern JavaScript</a>
-        </h2>
-        <span>by <a href="/author/jeremias-menichelli">Jeremias Menichelli</a></span>
-        <p>In this article, we are going to explore the evolution of JavaScript around
-          asynchronous execution in the past era and how it changed the way we write and read code. We will start with
-          the beginnings of web development, and go all the way to modern …
-        </p>
-      </article>
-    </section>
-    <section class="post-members">
-      <article class="supporters">
-        <h2>DigitalOcean</h2>
-        <p>Cloud hosting agencies love. Deploy client websites and apps with simple, predictable pricing. Get started
-          with a $50 credit.</p>
-      </article>
-      <article class="members">
-        <h1>1,620 smashing members</h1>
-        <p>A friendly community that keeps this website alive. With books, webinars, discounts and networking — for just
-          1 coffee a month. Join the family.</p>
-
-        <button>Explore Features</button>
-
-      </article>
-
-    </section>
-    <section class="posts">
-      <article>
-        <h2>
-          <a href="#">Speed Up Your Website With WebP</a>
-        </h2>
-        <span>by <a href="#">Suzanne Scacca</a></span>
-        <p>Images are a big part of the web and, yet, they can cause a lot of challenges for the user experience if not
-          properly optimized or delivered. It’s been almost a decade since Google introduced the world to WebP as a
-          solution to this problem. As more …</p>
-      </article>
-      <article>
-        <h2>
-          <a href="#">“Create Once, Publish Everywhere” With WordPress</a>
-        </h2>
-        <span>by <a href="#">Leonardo Losoviz</a></span>
-        <p>The term COPE (“Create Once, Publish Everywhere”) is a methodology for publishing our content to different
-          outputs (website, AMP site, email, apps, and so on) by having a single source of truth for all of them. Let’s
-          explore how to implement COPE …</p>
-      </article>
-      <article>
-        <h2>
-          <a href="#">Writing Asynchronous Tasks In Modern JavaScript</a>
-        </h2>
-        <span>by <a href="#">Jeremias Menichelli</a></span>
-        <p>In this article, we are going to explore the evolution of JavaScript around asynchronous execution in the
-          past era and how it changed the way we write and read code. We will start with the beginnings of web
-          development, and go all the way to modern …</p>
-      </article>
-    </section>
-    <section class="bookmarks">
-      <article class="create-bookmarks">
-        <h2>
-          <a href="#">Create A Bookmarking Application With FaunaDB, Netlify And 11ty</a>
-        </h2>
-        <span>by <a href="#">Bryan Robinson</a></span>
-        <p>In this article, we’ll create a personal bookmarking site using FaunaDB, Netlify Functions and 11ty data
-          files.</p>
-      </article>
-      <article class="bookmarks-tv members">
-        <h1>New on Smashing TV</h1>
-        <p>A channel where seasoned developers show how they design, build, work and play. Coming up next: Inclusive
-          Components With Heydon Pickering with Heydon Pickering (Nov 7).
-        </p>
-
-        <button>See all upcoming episodes</button>
-
-      </article>
-
-    </section>
-    <section class="ethics">
-      <h2>
-        <a href="/2019/07/smashing-magazine-print-1-release/">Smashing Print #1: Ethics &amp; Privacy</a>
-      </h2>
-      <p>Meet our new <strong>printed magazine</strong>, exploring topics that will make us all think, and will remain
-        useful as time passes by. Friendly, practical and approachable. <strong>Shipping now.</strong></p>
-      <button>Download a free PDF preview</button>
-    </section>
-    <section class="community">
-      <article>
-        <div></div>
-        <div>
-          <h3>PERSON OF THE WEEK</h3>
-          <p>Ire Aderinokun is a self-taught Front-End Developer and User Interface Designer from Lagos, Nigeria. She is
-            currently the co-founder, COO, and VP Engineering of BuyCoins, a cryptocurrency exchange for Africa, and
-            previously worked with eyeo, the company behind products like Adblock Plus and Flattr Plus. Ire is a Google
-            Expert, specializing in the core front-end technologies HTML, CSS, and JavaScript, but is passionate about
-            all aspects of technology. She writes about these topics on her blog and regularly shares her knowledge
-            speaking at conferences around Africa and the world. Thank you for everything you do for the community, dear
-            Ire!</p>
-        </div>
-      </article>
-    </section>
-    <div class="clear"></div>
-    <section class='writers-section'>
-      <article>
-        <div class="figure-head"></div>
-        <div class="content">
-          <span><a href="#">Ahmad Shadeed</a><span> wrote</span></span>
-          <h1><a href="#">CSS Variables With Inline Styles</a></h1>
-          <p><time datetime="2019-11-05" class="article--post__time">November 5, 2019 —</time>
-            When Ahmad Shadeed was working on a demo for an article, he needed an easy way to create a grid layout that
-            allowed him to make changes without touching CSS every time. Now he <a href="#">summarized his approach</a>.
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>S-Logo</li>
+          <li>Articles</li>
+          <li>Books</li>
+          <li>Events</li>
+          <li>Jobs</li>
+          <li>Membership</li>
+          <li>Topics</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="latest">
+        <article class="article-1">
+          <h2>
+            Build A Seamless Spreadsheet Import Experience With The Help Of
+            Flatfile.io
+          </h2>
+        </article>
+        <article class="article-2">
+          <h2>Creating Online Environments That Work Well For Older Users</h2>
+        </article>
+      </section>
+      <section class="latest">
+        <article class="article-3">
+          <h2>Things We Can't (Yet) Do In CSS</h2>
+        </article>
+        <article class="article-4">
+          <h2>
+            Signs Your Website Feels More Like A Haunted House Than A Welcoming
+            Home
+          </h2>
+        </article>
+      </section>
+      <section class="posts">
+        <article>
+          <h2>
+            <a href="#"
+              >Writing A Multiplayer Text Adventure Engine In Node.js: Creating
+              The Terminal Client (Part 3)</a
+            >
+          </h2>
+          <span>by <a href="/author/fernando-doglio">Fernando Doglio</a></span>
+          <p>
+            This third part of the series will focus on adding a text-based
+            client for the game engine that was created in
+            <a
+              href="https://www.smashingmagazine.com/2019/10/multiplayer-text-adventure-engine-node-js-part-2/"
+              >part 2</a
+            >. Fernando Doglio explains basic architecture design, tool
+            selection and code highlights by showing you how to create a
+            text-based UI …
           </p>
-        </div>
-      </article>
-      <article>
-        <div class="figure-head"></div>
-        <div class="content">
-          <span class="article--post__author-name grey"><a href="#">Stephanie Stimac</a>
-            <span> wrote</span></span>
-          <h1><a href="#">Location, Privilege And Performant Websites</a></h1>
-          <p><time datetime="2019-11-04">November 4, 2019
-              —</time>
-            Not everyone has access to a fast internet connection. Stephanie Stimac wrote a <a
-              href="#">thought-provoking article</a> about
-            privilege, website performance, and creating experiences that are easy to access and use.</p>
-        </div>
-      </article>
-      <article>
-        <div class="figure-head"></div>
-        <div class="content">
-          <span><a href="#">Nikolas Burk</a><span> wrote</span></span>
-          <h1><a href="#">How To GraphQL</a></h1>
-          <p><time datetime="2019-10-31">October 31, 2019 —</time>
-            Created by the community for the community, the free and open-source tutorial <a href="#">How to
-              GraphQL</a> teaches you all around GraphQL to take you from zero to production.</p>
-        </div>
-      </article>
-      <article>
-        <div class="figure-head"></div>
-        <div class="content">
-          <span><a href="#">Marco Zehe</a><span> wrote</span></span>
-          <h1><a href="#">Accessibility Audit With Developer Tools</a></h1>
-          <p><time datetime="2019-10-30">October 30, 2019 —</time>
-            In Firefox 70, the Accessibility Inspector has grown into an auditing facility to help identify and fix
-            common mistakes and practices that reduce accessibility. Marco Zehe summarized <a href="#">what is available
-              in this latest release</a>.</p>
-        </div>
-      </article>
-      <article>
-        <div class="figure-head"></div>
-        <div class="content">
-          <span><a href="#">Milica Mihajlija</a><span> wrote</span></span>
-          <h1><a href="#">Investigating Animation Performance</a></h1>
-          <p><time datetime="2019-10-29">October 29, 2019 —</time>
-            Users want snappy and delightful experiences. To help you achieve this, Milica Mihajlija explains <a
-              href="#">how browser rendering works</a> and how to use DevTools to diagnose performance issues.</p>
-        </div>
-      </article>
-      <article>
-        <div class="figure-head"></div>
-        <div class="content">
-          <span><a href="#">Nicolas Goutay</a><span> wrote</span></span>
-          <h1><a href="#">Falco</a></h1>
-          <p><time datetime="2019-10-28">October 28, 2019 —</time>
-            After months of internal beta testing, the automatic Web Performance auditing tool <a href="#">Falco</a> is
-            now open source, helping you monitor, analyze, and optimize your websites.</p>
-        </div>
-      </article>
-    </section>
-    <section class="book">
-      <article>
-        <h5>FEATURED SMASHING BOOK</h5>
-        <h1>Design Systems</h1>
-        <p>Meet <strong>Design Systems</strong> , a recent Smashing book in which Alla Kholmatova explores how to set up
-          an <strong>effective design system</strong> to create great digital products. With common traps, gotchas and
-          lessons learned.</p>
-        <button>Table of Contents</button>
-      </article>
-    </section>
-    <section class="posts">
-      <article>
-        <h2>
-          <a href="#">New Front-End Challenges To Master</a>
-        </h2>
-        <ul>
-          <li><a href="#">CSS Grid Layout</a></li>
-          <li><a href="#">Pattern Library</a></li>
-          <li><a href="#">Progressive Web Apps</a></li>
-          <li><a href="#">Switching to HTTPS</a></li>
-          <li><a href="#">HTTP/2 Guidelines</a></li>
-          <li><a href="#">React & Vue.js</a></li>
-          <li><a href="#">Redux For Designers</a></li>
-          <li><a href="#">Vue Composers</a></li>
-        </ul>
-      </article>
-      <article>
-        <h2>
-          <a href="#">Performance Optimization & Strategy</a>
-        </h2>
-        <ul>
-          <li><a href="#">Quick Performance Wins</a></li>
-          <li><a href="#">Building For Performance</a></li>
-          <li><a href="#">Front-End Optimization</a></li>
-          <li><a href="#">Back-End Optimization</a></li>
-          <li><a href="#">Better Compression</a></li>
-          <li><a href="#">Progressive Web Apps</a></li>
-          <li><a href="#">Perceived Performance</a></li>
-        </ul>
-      </article>
-      <article>
-        <h2>
-          <a href="#">Improving Workflow & Data Protection
-          </a>
-        </h2>
-        <ul>
-          <li><a href="#">GDPR For Developers</a></li>
-          <li><a href="#">Privacy Framework</a></li>
-          <li><a href="#">Estimating Time</a></li>
-          <li><a href="#">Dealing With Irrational Clients</a></li>
-          <li><a href="#">Getting Deliverables Right</a></li>
-          <li><a href="#">Meeting Deadlines</a></li>
-          <li><a href="#">Convincing Clients</a></li>
-          <li><a href="#">Invoicing Clients</a></li>
-        </ul>
-      </article>
-    </section>
-  </main>
-</body>
+        </article>
+        <article>
+          <h2>
+            <a href="#">Speed Up Your Website With WebP</a>
+          </h2>
+          <span>by <a href="/author/suzanne-scacca">Suzanne Scacca</a></span>
+          <p>
+            Images are a big part of the web and, yet, they can cause a lot of
+            challenges for the user experience if not properly optimized or
+            delivered. It’s been almost a decade since Google introduced the
+            world to WebP as a solution to this problem. As more …
+          </p>
+        </article>
+        <article>
+          <h2>
+            <a href="#">Writing Asynchronous Tasks In Modern JavaScript</a>
+          </h2>
+          <span
+            >by
+            <a href="/author/jeremias-menichelli">Jeremias Menichelli</a></span
+          >
+          <p>
+            In this article, we are going to explore the evolution of JavaScript
+            around asynchronous execution in the past era and how it changed the
+            way we write and read code. We will start with the beginnings of web
+            development, and go all the way to modern …
+          </p>
+        </article>
+      </section>
+      <section class="post-members">
+        <article class="supporters">
+          <h2>DigitalOcean</h2>
+          <p>
+            Cloud hosting agencies love. Deploy client websites and apps with
+            simple, predictable pricing. Get started with a $50 credit.
+          </p>
+        </article>
+        <article class="members">
+          <h1>1,620 smashing members</h1>
+          <p>
+            A friendly community that keeps this website alive. With books,
+            webinars, discounts and networking — for just 1 coffee a month. Join
+            the family.
+          </p>
 
+          <button>Explore Features</button>
+        </article>
+      </section>
+      <section class="posts">
+        <article>
+          <h2>
+            <a href="#">Speed Up Your Website With WebP</a>
+          </h2>
+          <span>by <a href="#">Suzanne Scacca</a></span>
+          <p>
+            Images are a big part of the web and, yet, they can cause a lot of
+            challenges for the user experience if not properly optimized or
+            delivered. It’s been almost a decade since Google introduced the
+            world to WebP as a solution to this problem. As more …
+          </p>
+        </article>
+        <article>
+          <h2>
+            <a href="#">“Create Once, Publish Everywhere” With WordPress</a>
+          </h2>
+          <span>by <a href="#">Leonardo Losoviz</a></span>
+          <p>
+            The term COPE (“Create Once, Publish Everywhere”) is a methodology
+            for publishing our content to different outputs (website, AMP site,
+            email, apps, and so on) by having a single source of truth for all
+            of them. Let’s explore how to implement COPE …
+          </p>
+        </article>
+        <article>
+          <h2>
+            <a href="#">Writing Asynchronous Tasks In Modern JavaScript</a>
+          </h2>
+          <span>by <a href="#">Jeremias Menichelli</a></span>
+          <p>
+            In this article, we are going to explore the evolution of JavaScript
+            around asynchronous execution in the past era and how it changed the
+            way we write and read code. We will start with the beginnings of web
+            development, and go all the way to modern …
+          </p>
+        </article>
+      </section>
+      <section class="bookmarks">
+        <article class="create-bookmarks">
+          <h2>
+            <a href="#"
+              >Create A Bookmarking Application With FaunaDB, Netlify And
+              11ty</a
+            >
+          </h2>
+          <span>by <a href="#">Bryan Robinson</a></span>
+          <p>
+            In this article, we’ll create a personal bookmarking site using
+            FaunaDB, Netlify Functions and 11ty data files.
+          </p>
+        </article>
+        <article class="bookmarks-tv members">
+          <h1>New on Smashing TV</h1>
+          <p>
+            A channel where seasoned developers show how they design, build,
+            work and play. Coming up next: Inclusive Components With Heydon
+            Pickering with Heydon Pickering (Nov 7).
+          </p>
+
+          <button>See all upcoming episodes</button>
+        </article>
+      </section>
+      <section class="ethics">
+        <h2>
+          <a href="/2019/07/smashing-magazine-print-1-release/"
+            >Smashing Print #1: Ethics &amp; Privacy</a
+          >
+        </h2>
+        <p>
+          Meet our new <strong>printed magazine</strong>, exploring topics that
+          will make us all think, and will remain useful as time passes by.
+          Friendly, practical and approachable. <strong>Shipping now.</strong>
+        </p>
+        <button>Download a free PDF preview</button>
+      </section>
+      <section class="community">
+        <article>
+          <div></div>
+          <div>
+            <h3>PERSON OF THE WEEK</h3>
+            <p>
+              Ire Aderinokun is a self-taught Front-End Developer and User
+              Interface Designer from Lagos, Nigeria. She is currently the
+              co-founder, COO, and VP Engineering of BuyCoins, a cryptocurrency
+              exchange for Africa, and previously worked with eyeo, the company
+              behind products like Adblock Plus and Flattr Plus. Ire is a Google
+              Expert, specializing in the core front-end technologies HTML, CSS,
+              and JavaScript, but is passionate about all aspects of technology.
+              She writes about these topics on her blog and regularly shares her
+              knowledge speaking at conferences around Africa and the world.
+              Thank you for everything you do for the community, dear Ire!
+            </p>
+          </div>
+        </article>
+      </section>
+      <div class="clear"></div>
+      <section class="writers-section">
+        <article>
+          <div class="figure-head"></div>
+          <div class="content">
+            <span><a href="#">Ahmad Shadeed</a><span> wrote</span></span>
+            <h1><a href="#">CSS Variables With Inline Styles</a></h1>
+            <p>
+              <time datetime="2019-11-05" class="article--post__time"
+                >November 5, 2019 —</time
+              >
+              When Ahmad Shadeed was working on a demo for an article, he needed
+              an easy way to create a grid layout that allowed him to make
+              changes without touching CSS every time. Now he
+              <a href="#">summarized his approach</a>.
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="figure-head"></div>
+          <div class="content">
+            <span class="article--post__author-name grey"
+              ><a href="#">Stephanie Stimac</a> <span> wrote</span></span
+            >
+            <h1><a href="#">Location, Privilege And Performant Websites</a></h1>
+            <p>
+              <time datetime="2019-11-04">November 4, 2019 —</time> Not everyone
+              has access to a fast internet connection. Stephanie Stimac wrote a
+              <a href="#">thought-provoking article</a> about privilege, website
+              performance, and creating experiences that are easy to access and
+              use.
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="figure-head"></div>
+          <div class="content">
+            <span><a href="#">Nikolas Burk</a><span> wrote</span></span>
+            <h1><a href="#">How To GraphQL</a></h1>
+            <p>
+              <time datetime="2019-10-31">October 31, 2019 —</time> Created by
+              the community for the community, the free and open-source tutorial
+              <a href="#">How to GraphQL</a> teaches you all around GraphQL to
+              take you from zero to production.
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="figure-head"></div>
+          <div class="content">
+            <span><a href="#">Marco Zehe</a><span> wrote</span></span>
+            <h1><a href="#">Accessibility Audit With Developer Tools</a></h1>
+            <p>
+              <time datetime="2019-10-30">October 30, 2019 —</time> In Firefox
+              70, the Accessibility Inspector has grown into an auditing
+              facility to help identify and fix common mistakes and practices
+              that reduce accessibility. Marco Zehe summarized
+              <a href="#">what is available in this latest release</a>.
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="figure-head"></div>
+          <div class="content">
+            <span><a href="#">Milica Mihajlija</a><span> wrote</span></span>
+            <h1><a href="#">Investigating Animation Performance</a></h1>
+            <p>
+              <time datetime="2019-10-29">October 29, 2019 —</time> Users want
+              snappy and delightful experiences. To help you achieve this,
+              Milica Mihajlija explains
+              <a href="#">how browser rendering works</a> and how to use
+              DevTools to diagnose performance issues.
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="figure-head"></div>
+          <div class="content">
+            <span><a href="#">Nicolas Goutay</a><span> wrote</span></span>
+            <h1><a href="#">Falco</a></h1>
+            <p>
+              <time datetime="2019-10-28">October 28, 2019 —</time> After months
+              of internal beta testing, the automatic Web Performance auditing
+              tool <a href="#">Falco</a> is now open source, helping you
+              monitor, analyze, and optimize your websites.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="book">
+        <article>
+          <h5>FEATURED SMASHING BOOK</h5>
+          <h1>Design Systems</h1>
+          <p>
+            Meet <strong>Design Systems</strong> , a recent Smashing book in
+            which Alla Kholmatova explores how to set up an
+            <strong>effective design system</strong> to create great digital
+            products. With common traps, gotchas and lessons learned.
+          </p>
+          <button>Table of Contents</button>
+        </article>
+      </section>
+      <section class="posts">
+        <article>
+          <h2>
+            <a href="#">New Front-End Challenges To Master</a>
+          </h2>
+          <ul>
+            <li><a href="#">CSS Grid Layout</a></li>
+            <li><a href="#">Pattern Library</a></li>
+            <li><a href="#">Progressive Web Apps</a></li>
+            <li><a href="#">Switching to HTTPS</a></li>
+            <li><a href="#">HTTP/2 Guidelines</a></li>
+            <li><a href="#">React & Vue.js</a></li>
+            <li><a href="#">Redux For Designers</a></li>
+            <li><a href="#">Vue Composers</a></li>
+          </ul>
+        </article>
+        <article>
+          <h2>
+            <a href="#">Performance Optimization & Strategy</a>
+          </h2>
+          <ul>
+            <li><a href="#">Quick Performance Wins</a></li>
+            <li><a href="#">Building For Performance</a></li>
+            <li><a href="#">Front-End Optimization</a></li>
+            <li><a href="#">Back-End Optimization</a></li>
+            <li><a href="#">Better Compression</a></li>
+            <li><a href="#">Progressive Web Apps</a></li>
+            <li><a href="#">Perceived Performance</a></li>
+          </ul>
+        </article>
+        <article>
+          <h2>
+            <a href="#">Improving Workflow & Data Protection </a>
+          </h2>
+          <ul>
+            <li><a href="#">GDPR For Developers</a></li>
+            <li><a href="#">Privacy Framework</a></li>
+            <li><a href="#">Estimating Time</a></li>
+            <li><a href="#">Dealing With Irrational Clients</a></li>
+            <li><a href="#">Getting Deliverables Right</a></li>
+            <li><a href="#">Meeting Deadlines</a></li>
+            <li><a href="#">Convincing Clients</a></li>
+            <li><a href="#">Invoicing Clients</a></li>
+          </ul>
+        </article>
+      </section>
+      <section class="newletters">
+        <article>
+          <h2>
+            <a href="#">Design Patterns & Checklists </a>
+          </h2>
+          <ul>
+            <li><a href="#">Responsive Art-Direction</a></li>
+            <li><a href="#">Perfect Configurator</a></li>
+            <li><a href="#">Perfect Web Form</a></li>
+            <li><a href="#">Perfect Accordion</a></li>
+            <li><a href="#">Perfect Date Picker</a></li>
+            <li><a href="#">Perfect Slider</a></li>
+            <li><a href="#">Perfect Comparison Table</a></li>
+            <li><a href="#">Perfect Infinite Scroll</a></li>
+            <li><a href="#">Perfect Carousel</a></li>
+            <li><a href="#">Privacy UX</a></li>
+          </ul>
+        </article>
+        <article class="members">
+          <h1>Smashing Newsletter</h1>
+          <p>
+            Imagine you wrote a beautiful song and nobody discovered it. That
+            would make any cat sad. Don't let that happen!
+          </p>
+          <button>Your (smashing) email | Subscribe →</button>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <h1>BROWSE ALL SMASHING MAGAZINE TOPICS</h1>
+      <ul class="page-links">
+        <li>
+          <a href="#">Accessibility</a>
+        </li>
+        <li>
+          <a href="#">Android</a>
+        </li>
+        <li>
+          <a href="#">Animation</a>
+        </li>
+        <li><a href="#">Apps</a></li>
+        <li><a href="#">CSS</a></li>
+        <li>
+          <a href="#">Design</a>
+        </li>
+        <li>
+          <a href="#">Design Patterns</a>
+        </li>
+        <li>
+          <a href="#">Design Systems</a>
+        </li>
+        <li>
+          <a href="#">E-Commerce</a>
+        </li>
+        <li>
+          <a href="#">Freebies</a>
+        </li>
+        <li>
+          <a href="#">Graphics</a>
+        </li>
+        <li><a href="#">HTML</a></li>
+        <li>
+          <a href="#">Illustrator</a>
+        </li>
+        <li>
+          <a href="#">Inspiration</a>
+        </li>
+        <li><a href="#">iOS</a></li>
+        <li>
+          <a href="#">JavaScript</a>
+        </li>
+        <li>
+          <a href="#">Mobile</a>
+        </li>
+        <li>
+          <a href="#">Pattern Libraries</a>
+        </li>
+        <li>
+          <a href="#">Performance</a>
+        </li>
+        <li>
+          <a href="#">Photoshop</a>
+        </li>
+        <li>
+          <a href="#">Plugins</a>
+        </li>
+        <li>
+          <a href="#">React</a>
+        </li>
+        <li>
+          <a href="#">Responsive Web Design</a>
+        </li>
+        <li>
+          <a href="#">Service Workers</a>
+        </li>
+        <li>
+          <a href="#">Sketch</a>
+        </li>
+        <li>
+          <a href="#">Typography</a>
+        </li>
+        <li><a href="#">UI</a></li>
+        <li>
+          <a href="#">Usability</a>
+        </li>
+        <li>
+          <a href="#">User Experience</a>
+        </li>
+        <li>
+          <a href="#">Wallpapers</a>
+        </li>
+        <li>
+          <a href="#">Web Design</a>
+        </li>
+        <li>
+          <a href="#">WordPress</a>
+        </li>
+        <li>
+          <a href="#">Workflow</a>
+        </li>
+      </ul>
+      <p>
+        With a commitment to quality content for the design community. Founded
+        by Vitaly Friedman and Sven Lennartz. 2006–2019. Smashing is proudly
+        running on Netlify. Fonts by Latinotype.With a commitment to quality
+        content for the design community. Founded by Vitaly Friedman and Sven
+        Lennartz. 2006–2019. Smashing is proudly running on Netlify. Fonts by
+        Latinotype.
+      </p>
+      <ul class="footer-links">
+        <li> <a href="#">Write for us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">About us (Impressum)</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Membership login</a></li>
+        <li><a href="#">Delivery times</a></li>
+        <li><a href="#">Advertise</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>

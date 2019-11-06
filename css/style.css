@@ -104,17 +104,20 @@ header nav ul > li:last-child {
 }
 
 .posts article,
-.bookmarks article:first-child {
+.bookmarks article:first-child,
+.newletters article:first-child {
   padding: 30px;
 }
 
 .posts article h2,
-.bookmarks article:first-child h2 {
+.bookmarks article:first-child h2,
+.newletters article:first-child h2 {
   margin-bottom: 25px;
 }
 
 .posts article h2 a,
-.bookmarks article:first-child h2 a {
+.bookmarks article:first-child h2 a,
+.newletters article:first-child h2 a {
   color: black;
   font-size: 28px;
 }
@@ -142,7 +145,8 @@ header nav ul > li:last-child {
 }
 
 .posts article:not(:last-child):hover,
-.bookmarks article:first-child:hover {
+.bookmarks article:first-child:hover,
+.newletters article:first-child:hover {
   background: white;
   box-shadow: 3px 3px 7px rgba(66, 65, 65, 0.4);
   transform: scale(1.1);
@@ -157,7 +161,8 @@ header nav ul > li:last-child {
 }
 
 .posts article:first-child:hover,
-.bookmarks article:first-child:hover {
+.bookmarks article:first-child:hover,
+.newletters article:first-child:hover {
   margin-left: 21px;
 }
 
@@ -224,7 +229,8 @@ header nav ul > li:last-child {
   height: 700px;
 }
 
-.bookmarks-tv button {
+.bookmarks-tv button,
+.newletters article:last-child button {
   width: 40%;
 }
 
@@ -404,12 +410,16 @@ header nav ul > li:last-child {
   margin-top: 50px;
 }
 
-.posts ul {
+.posts ul,
+.newletters article:first-child ul,
+footer ul {
   list-style: none;
   padding-left: 40px;
 }
 
-.posts ul li::before {
+.posts ul li::before,
+.newletters article:first-child ul li::before,
+footer ul li::before {
   content: "\2022";
   color: rgb(110, 107, 107);
   font-weight: bold;
@@ -418,9 +428,82 @@ header nav ul > li:last-child {
   margin-left: -1em;
 }
 
-.posts > article > ul > li > a {
+.posts > article > ul > li > a,
+.newletters article:first-child ul > li > a,
+footer > ul > li > a {
   color: #006fc6;
   font-family: Elena;
   line-height: 2;
   font-size: 23px;
+}
+
+.newletters {
+  display: grid;
+  grid-template-columns: 34% 64%;
+  height: 700px;
+  padding-top: 20px;
+}
+
+.newletters article:last-child h1 {
+  margin-top: -200px;
+}
+
+.newletters article:last-child button {
+  margin-top: 300px;
+}
+
+footer {
+  margin-top: 180px;
+  height: 600px;
+  background-color: rgb(156, 154, 154);
+  text-align: center;
+}
+
+footer h1 {
+  color: white;
+  padding-top: 30px;
+  font-family: Elena;
+  font-size: 14.2992px;
+  font-weight: 700;
+  height: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+footer > ul > li {
+  display: inline;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.page-links {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.page-link > li > a {
+  font-family: Elena;
+  font-size: 15.888px;
+  height: 441.031px;
+}
+
+footer p {
+  font-family: Elena;
+  font-size: 15.888px;
+  height: 25px;
+  line-height: 25.32px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 40px;
+  margin-bottom: 150px;
+  color: white;
+}
+
+footer > ul > li > a {
+  color: white;
+}
+
+.footer-links {
+  width: 50%;
+  margin: 0 auto;
 }
