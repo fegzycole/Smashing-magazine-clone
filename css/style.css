@@ -105,56 +105,64 @@ header nav ul > li:last-child {
   width: 33.33%;
 }
 
-.posts article,
-.bookmarks article:first-child,
-.newletters article:first-child {
+.padding-center {
   padding: 30px;
 }
 
-.posts article h2,
-.bookmarks article:first-child h2,
-.newletters article:first-child h2 {
+.bottom-margin {
   margin-bottom: 25px;
 }
 
-.posts article h2 a,
-.bookmarks article:first-child h2 a,
-.newletters article:first-child h2 a {
+.dark-font {
   color: black;
   font-size: 28px;
 }
 
-.posts article span,
-.posts article span a,
-.bookmarks article:first-child span a {
+.med-font {
   font-size: 18px;
   color: rgb(155, 155, 154);
 }
 
-.supporters p,
-.posts article p,
-.bookmarks article:first-child p,
-.members p,
-.community article div:last-child p {
+.parag {
   margin-top: 25px;
-  font-family: Elena;
+  font-family: Elena, sans-serif;
   line-height: 1.5;
   font-size: 22px;
 }
 
-.supporters p,
-.posts article p,
-.bookmarks article:first-child p,
-.members p,
-.community article div:last-child p {
-  margin-top: 25px;
-  font-family: Elena;
-  line-height: 1.5;
-  font-size: 22px;
+.ethics h2 a {
+  color: white;
+  font-size: 50px;
 }
 
 .posts article p > a {
-  font-family: Elena;
+  font-family: Elena, sans-serif;
+}
+
+.community article {
+  width: 100%;
+  padding: 50px;
+}
+
+.writers-section > article {
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.book article {
+  width: 60%;
+}
+
+.newsletters article:first-child {
+  width: 34%;
+}
+
+.newsletters article:last-child {
+  width: 34%;
+  margin-left: 12px;
 }
 
 .posts article:not(:last-child):hover,
@@ -223,8 +231,7 @@ header nav ul > li:last-child {
   margin: 0 auto;
 }
 
-.members button,
-.book article button {
+.btn {
   background-color: rgb(182, 179, 179);
   width: 30%;
   height: 60px;
@@ -250,8 +257,7 @@ header nav ul > li:last-child {
   width: 64%;
 }
 
-.bookmarks-tv button,
-.newletters article:last-child button {
+.big-btn {
   width: 40%;
 }
 
@@ -268,16 +274,11 @@ header nav ul > li:last-child {
   margin-top: 40px;
 }
 
-.ethics h2 a {
-  color: white;
-  font-size: 50px;
-}
-
 .ethics > p,
 .ethics > p > strong {
   width: 60%;
   margin: 30px auto 0 auto;
-  font-family: Elena;
+  font-family: Elena, sans-serif;
   font-size: 26px;
   line-height: 2;
   color: white;
@@ -291,11 +292,6 @@ header nav ul > li:last-child {
   color: white;
   border-radius: 7px;
   margin-top: 30px;
-}
-
-.community article {
-  width: 100%;
-  padding: 50px;
 }
 
 .community article div:first-child {
@@ -316,7 +312,7 @@ header nav ul > li:last-child {
 }
 
 .community article div:last-child h3 {
-  font-family: Elena;
+  font-family: Elena, sans-serif;
   color: rgb(102, 102, 102);
   font-weight: 400;
   font-size: 17.874px;
@@ -330,14 +326,6 @@ header nav ul > li:last-child {
 .writers-section {
   margin-top: 100px;
   display: flex;
-}
-
-.writers-section > article {
-  padding: 10px;
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  height: 400px;
 }
 
 .writers-section > article > .figure-head {
@@ -373,7 +361,7 @@ header nav ul > li:last-child {
 .writers-section > article > .content > p,
 .writers-section > article > .content > p > time,
 .writers-section > article > .content > p > a {
-  font-family: Elena;
+  font-family: Elena, sans-serif;
   font-size: 19px;
   line-height: 2;
 }
@@ -395,12 +383,8 @@ header nav ul > li:last-child {
   color: white;
 }
 
-.book article {
-  width: 60%;
-}
-
 .book article h5 {
-  font-family: Elena;
+  font-family: Elena, sans-serif;
   font-size: 15.888px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -415,7 +399,7 @@ header nav ul > li:last-child {
 }
 
 .book article p {
-  font-family: Elena;
+  font-family: Elena, sans-serif;
   font-size: 19.86px;
   height: 93px;
   line-height: 31.278px;
@@ -430,16 +414,11 @@ header nav ul > li:last-child {
   margin-top: 50px;
 }
 
-.posts ul,
-.newletters article:first-child ul,
-footer ul {
-  list-style: none;
+.pad-left {
   padding-left: 40px;
 }
 
-.posts ul li::before,
-.newletters article:first-child ul li::before,
-footer ul li::before {
+.bullet::before {
   content: "\2022";
   color: rgb(110, 107, 107);
   font-weight: bold;
@@ -448,11 +427,9 @@ footer ul li::before {
   margin-left: -1em;
 }
 
-.posts > article > ul > li > a,
-.newletters article:first-child ul > li > a,
-footer > ul > li > a {
+.a-tag {
   color: #006fc6;
-  font-family: Elena;
+  font-family: Elena, sans-serif;
   line-height: 2;
   font-size: 23px;
 }
@@ -461,15 +438,6 @@ footer > ul > li > a {
   display: flex;
   height: 700px;
   padding-top: 20px;
-}
-
-.newsletters article:first-child {
-  width: 34%;
-}
-
-.newsletters article:last-child {
-  width: 34%;
-  margin-left: 12px;
 }
 
 .newletters article:last-child h2 {
@@ -490,7 +458,7 @@ footer {
 footer h1 {
   color: white;
   padding-top: 30px;
-  font-family: Elena;
+  font-family: Elena, sans-serif;
   font-size: 14.2992px;
   font-weight: 700;
   height: 24px;
@@ -510,13 +478,13 @@ footer > ul > li {
 }
 
 .page-link > li > a {
-  font-family: Elena;
+  font-family: Elena, sans-serif;
   font-size: 15.888px;
   height: 441.031px;
 }
 
 footer p {
-  font-family: Elena;
+  font-family: Elena, sans-serif;
   font-size: 15.888px;
   height: 25px;
   line-height: 25.32px;
@@ -527,7 +495,7 @@ footer p {
   color: white;
 }
 
-footer > ul > li > a {
+.white-text {
   color: white;
 }
 
